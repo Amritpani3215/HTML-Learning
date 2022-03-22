@@ -1,0 +1,102 @@
+body{
+    height: fit-content; 
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(202, 199, 199, 0.733);
+ }
+.container{
+    display: grid;
+    background-color: rgba(202, 199, 199, 0.733);
+    width: 75%;
+    margin: 10%  ;
+    grid-template-rows: repeat(8,1fr);
+    padding-left: 150px;
+    padding-top: 50px;
+} 
+label{
+    font-size: 30px;
+    color:rgb(50, 44, 77) ;
+}
+
+.item{
+    background-color: rgba(202, 199, 199, 0.733);    
+    color:rgb(50, 44, 77) ;
+    font-size: 40px;
+    justify-self: center; 
+}
+#Form1{
+    background-color:rgba(202, 199, 199, 0.733) ;
+    color:rgb(50, 44, 77) ;
+    justify-self: center;
+}
+.item1{
+    display: flex;
+    padding-top: 1px;
+}
+.item2  {
+    display: flex;
+    padding-top: 1px;
+}
+.item3{
+    display: flex;
+    padding-top: 1px;
+}
+.item4{
+    display: flex;
+    padding-top: 1px;
+}
+.item5{
+    display: flex;
+    padding-top: 1px ;
+}
+.item6{
+    display: flex;
+    padding-top: 1px ;
+}
+.item7{
+    display: flex;
+    padding-top: 1px ;
+    padding: none;
+}
+.item8{
+    display: flex;
+    padding-top: 1px ;
+}
+.text-element{
+    width: 60%;
+    height: 40px;
+    padding: 25px;
+    font-size: 30px;
+    margin-right: 190px;
+    /* width: 500px; */
+}
+/* .text-element2{
+    width: 90%;
+    height: 40px;
+    padding: 25px;
+    margin-right: 100px;
+} */
+.heading{
+    font-size:40px ;
+}
+
+
+select{
+    padding: 25px;
+    font-size: 30px;
+    /* width: 500px; */
+    border-radius: 10px;
+    
+}
+/* .span3{
+    padding-left: 100px;
+} */
+input{
+    border-radius: 10px;
+}
+option{
+    border-radius: 10px;
+}
+.div2{
+    margin-left: 10px;
+}

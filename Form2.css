@@ -1,0 +1,78 @@
+/* *{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+} */
+.body{
+
+}
+
+ .container{
+    /* display: grid;
+    background-color: rgba(202, 199, 199, 0.733);
+    width: 75%;
+    margin: 10%  ;
+    grid-template-rows: repeat(8,1fr);
+    padding-left: 150px;
+    padding-top: 50px; */
+
+    display: grid;
+    background-color: rgba(202, 199, 199, 0.733);
+    width: 50%;
+    /* margin: 10% 10% 10% 10%  ; */
+    grid-template-rows: repeat(8,1fr);
+    padding: 5% 10% 5% 10%;
+    font-size: 40px; 
+    /* align-items: center; */
+    /* justify-self: center;   */
+}
+
+
+.item0{
+    /* background-color: rgba(202, 199, 199, 0.733); */
+    padding: 10px;
+}
+.item1{
+     /* background-color: rgba(202, 199, 199, 0.733; */
+     display: flex;
+     /* flex-wrap: wrap; */
+}
+.item2{
+    display: flex;
+    /* background-color: rgba(202, 199, 199, 0.733); */
+}
+.item3{
+    display: flex;
+    /* background-color: rgba(202, 199, 199, 0.733); */
+}
+.item4{
+    display: flex;
+    /* background-color: rgba(202, 199, 199, 0.733); */
+}
+.item5{
+    display: flex;
+    /* background-color: rgba(202, 199, 199, 0.733); */
+}
+.item6{
+    display: flex;
+    /* background-color: rgba(202, 199, 199, 0.733); */
+}
+.item7{
+    display: flex;
+    /* background-color: rgba(202, 199, 199, 0.733); */
+}
+
+label{
+    font-size: 20px;
+}
+input{
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 30px;
+}
+select{
+    padding: 25px;
+    font-size: 30px;
+    /* width: 500px; */
+    border-radius: 10px;
+    
+}

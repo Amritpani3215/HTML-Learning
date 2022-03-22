@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+<style>
+    p{
+        text-align: center;
+    }
+    form{
+        text-align: center;
+        background-color: gray;
+        
+        /* margin: 500px; ; */
+        border: 2px solid rgb(33, 35, 36);
+        padding: 1px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    body{
+        background-color: aquamarine;
+        /* width: 400px; */
+        border: 2px solid rgb(33, 35, 36);
+    }
+
+</style>
+</head>
+<body>
+    <br>    
+    <h1 font aria-setsize="40" text- align="center" "background-color:red; " > Creat Forms</h1>
+    <form action="backend.php" >
+        <label for="name">Name:</label>
+        <div>
+             <input type="text" name="myname" id="name" required >
+        </div>
+        <br>
+        <label for="roll">Roll:</label>
+        <div>
+             <input type="number" name="roll" id="roll" required>
+        </div>
+        <br>
+        <label for="stream">Stream</label>
+        
+        <div>
+             <select name="stream" id="stream" required>
+                 <li>
+                 <option value=""></option>
+                 <option value="B.Tech">B.Tech</option>
+                 <option value="B.Pharm">B.Pharm</option>
+                 <option value="Bsc">Bsc</option>
+             </select>
+        </div>
+        <br>
+        <label for="date">Date:</label>
+        <div>
+            <input type="date" name="mydate" id="date" required>
+       </div>
+       <br>
+    <label for="mygender" required>Gender</label >
+    <div>
+        Male<input type="radio" name="mygender" id="mygender" required >
+        <br>
+        FeMale<input type="radio" name="mygender" id="mygender" required >
+        <br>
+              <input type="text" name="mygender" id="mygender" required>
+              <br>
+        Others<input type="radio" name="mygender" id="mygender" required>
+   </div>
+   <br>
+   <label for="checkbox">Are You Eligible:</label>
+   <div>
+       <input type="checkbox" name="checkbox" id="checkbox" required>
+  </div>
+  <div>
+      <input type="submit" value="Submit Now">
+      <input type="reset" value="Reset">
+  </div> 
+  <br>                     
+    </form>
+    <p>&#128512</p>
+</body>
+</html>
